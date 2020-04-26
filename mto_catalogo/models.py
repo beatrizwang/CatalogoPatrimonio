@@ -92,6 +92,8 @@ class Historia(models.Model):
     elemento = models.ForeignKey('ElementoPatrimonio', related_name='historia', on_delete=models.CASCADE)
     actuacion = models.CharField(max_length=255, null=True)
     datacion = models.CharField(max_length=255, null=True, blank=True)
+    ano_desde = models.SmallIntegerField(null=True)
+    ano_hasta = models.SmallIntegerField(null=True)
     autor = models.CharField(max_length=255, null=True, blank=True)
     estilo = models.ForeignKey('Estilo', on_delete=models.PROTECT, null=True, blank=True)
 
