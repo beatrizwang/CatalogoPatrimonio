@@ -2,7 +2,7 @@
 Django==3.0.14
 django-filter==2.2.0
 django-mssql-backend==2.8.0
-djangorestframework==3.11.0
+djangorestframework==3.11.2
 pyodbc==4.0.30
 pytz==2019.3
 sqlparse==0.3.1
