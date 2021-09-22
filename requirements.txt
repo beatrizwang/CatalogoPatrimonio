@@ -1,5 +1,5 @@
 ﻿asgiref==3.2.7
-Django==3.0.14
+Django==3.1.13
 django-filter==2.2.0
 django-mssql-backend==2.8.0
 djangorestframework==3.11.2
